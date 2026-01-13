@@ -1,23 +1,4 @@
-$(document).ready(function() {
-    // if( gameProviders ) {
-        
-    //     console.log(typeof gameProviders);
-    //     Object.entries(gameProviders).forEach(([categoryKey, categoryData]) => {
-    //         console.log("Category:", categoryKey);
-    //         console.log("Category Title:", categoryData.title);
-
-    //         const games = Array.isArray(categoryData.games) 
-    //         ? categoryData.games 
-    //         : Object.values(categoryData.games);
-
-    //         games.forEach(game => {
-    //             console.log(game.title, game.thumbnail);
-    //         });
-
-    //     });
-
-    // }
-    
+$(document).ready(function() {    
 	$(document).on('click', '.provider-list .btn-section-bg', function(e) {
 		var $this = $(this),
             $target = $this.attr('data-target');

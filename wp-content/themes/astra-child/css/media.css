@@ -1,0 +1,225 @@
+@media (max-width: 767px) {
+    h1, .h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    h2, .h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    h3, .h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    h4, .h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    h5, .h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .navbar-brand {
+        width: 60px;
+    }
+    /* #masthead.scroll-down {
+        transform: translateY(-120px);
+    } */
+    #masthead .navbar-nav {
+        gap: 6px;
+    }
+    #deviceSwiper .swiper-slide {
+        width: 260px;
+    }
+    .enquiry-sources .btn-wrapper .btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .enquiry-sources .btn-wrapper .btn, .platform .btn.btn-download {
+        padding: 0.75rem 1rem;
+    }
+    .enquiry-sources .logo{
+        width: 150px;
+        height: 150px;
+    }
+    .btn-with-icon {
+        font-size: 18px;
+    }
+    .slotmachine h2{
+        font-size: 24px;
+    }
+    .slot-body {
+        padding: 50px 30px;
+    }
+    .slotwrapper ul li {
+        font-size: 40px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+    .slotwrapper, .slotwrapper ul, #rtp-game-list {
+        height: 200px;
+    }
+    .slotbase .btn-spin {
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+    }
+    .footer span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer .social-media {
+        gap: 20px;
+    }
+    .footer .social-media .nav-item {
+        width: 40px;
+        height: 40px;
+    }
+    .floating-list {
+        bottom: 12px;
+        right: 5px;
+    }
+    .floating-list-inner .floating-item {
+        width: 40px;
+        height: 40px;
+    }
+    .rtp-table {
+        overflow-x: scroll;
+    }
+    .rtp-table table {
+        min-width: 800px;
+    }
+    .rtp-table table th:nth-child(1), .rtp-table table td:nth-child(1) {
+        width: 20%;
+    }
+    #masthead .nav-link, #masthead .dropdown-item {
+        white-space: break-spaces;
+    }
+    .responsive-table {
+        overflow-x: scroll;
+    }
+    .responsive-table table {
+        min-width: 600px;
+    }
+    .page-404-layout .code {
+        margin-top: -50px;
+    }
+}
+@media (min-width: 768px) {
+    .platform, .platform-inner {
+        height: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    #masthead .navbar-nav {
+        gap: 10px;
+    }
+    #masthead .navbar-nav .nav-link {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+    }
+    #masthead .navbar-nav .nav-link {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+}
+@media (max-width: 1199px) {
+    #masthead .navbar-collapse-inner {
+        display: block;
+        background-color: #292421;
+        width: 100%;
+        height: 100%;
+        padding-top: 6px;
+        z-index: 1;
+    }
+    #masthead .navbar-collapse-inner > h4 {
+        font-size: 36px;
+        line-height: 1;
+        border-bottom: 1px solid #d7d7d7;
+    }
+    #masthead .nav-item .nav-link {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .navbar-collapse .navbar-close {
+        position: absolute;
+        top: 27px;
+        right: 24px;
+        padding: 8px;
+        width: 46px;
+        height: 46px;
+        background-color: transparent;
+        cursor: pointer;
+        z-index: 5;
+    }
+    .navbar-collapse .navbar-close::before, .navbar-collapse .navbar-close::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 32px;
+        height: 2px;
+        background: #999;
+        top: 50%;
+        left: 50%;
+    }
+    .navbar-collapse .navbar-close::before {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .navbar-collapse .navbar-close::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: -1.5rem;
+        width: calc(100% + 3rem);
+        background: #292421;
+        z-index: 10;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+    #masthead .navbar-nav {
+        gap: 6px;
+    }
+}
+@media (min-width: 1600px) {
+    .col-screen-1 {
+        width: 8.33333333%
+    }
+    .col-screen-2 {
+        width: 16.66666667;
+    }
+    .col-screen-3 {
+        width: 25;
+    }
+    .col-screen-4 {
+        width: 33.33333333;
+    }
+    .col-screen-5 {
+        width: 41.66666667;
+    }
+    .col-screen-6 {
+        width: 50%;
+    }
+    .col-screen-7 {
+        width: 58.33333333%;
+    }
+    .col-screen-8 {
+        width: 66.66666667%;
+    }
+    .col-screen-9 {
+        width: 75;
+    }
+    .col-screen-10 {
+        width: 83.33333333%;
+    }
+    .col-screen-11 {
+        width: 91.66666667%;
+    }
+    .col-screen-12 {
+        width: 100%;
+    }
+}
+@media (min-width: 1900px) {}
